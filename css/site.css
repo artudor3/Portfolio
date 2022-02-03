@@ -37,11 +37,17 @@ body{
 */
 
 /* Styling the Main Title */
-.mainTitle{
+.firstName {
     font-family: var(--title-font);
     font-size: 2rem;
     line-height: 1.5rem;
 }
+.lastName {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
 /* Sizing the logo for the header */
 .mainLogo{
     height: .8em;
@@ -85,7 +91,13 @@ body{
 @media (min-width: 374.98px) {
 
     /* Styling the Main Title */
-    .mainTitle {
+    .firstName {
+        font-family: var(--title-font);
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    .lastName {
         font-family: var(--title-font);
         font-size: 2.5rem;
         line-height: 2rem;
@@ -120,11 +132,18 @@ body{
         height: 374px;
     }
     /* Styling the Main Title */
-    .mainTitle {
+    .firstName {
         font-family: var(--title-font);
         font-size: 4.5rem;
         line-height: 3.5rem;
     }
+
+    .lastName {
+        font-family: var(--title-font);
+        font-size: 4.5rem;
+        line-height: 3.5rem;
+    }
+
     /* Sizing the logo for the header */
     .mainLogo {
         height: .8em;
@@ -154,11 +173,18 @@ body{
         height: 574px;
     }
     /* Styling the Main Title */
-    .mainTitle {
+    .firstName {
         font-family: var(--title-font);
         font-size: 6rem;
         line-height: 5rem;
     }
+
+    .lastName {
+        font-family: var(--title-font);
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+
     /* Sizing the logo for the header */
     .mainLogo {
         height: .8em;
